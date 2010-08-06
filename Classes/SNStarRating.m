@@ -17,7 +17,7 @@ const float BTN_HEIGHT = 42.0;
 // You're not supposed to use initWithFrame, but it's here in case someone didn't get the memo.
 - (id)initWithFrame:(CGRect)frame 
 {
-    return [self initWithNumberOfStars:5 initialRating:0];
+	return [self initWithNumberOfStars:5 initialRating:0];
 }
 
 // Convenience method if you don't want/have an initial value
@@ -30,15 +30,15 @@ const float BTN_HEIGHT = 42.0;
 - (id)initWithNumberOfStars:(int)numStars initialRating:(int)initialRating
 {
 	CGRect frame = CGRectMake(0.0, 0.0, (numStars * BTN_WIDTH), BTN_HEIGHT);
-    if ((self = [super initWithFrame:frame])) 
+	if ((self = [super initWithFrame:frame])) 
 	{
 		[self setNumberStars:numStars];
 		[self setRating:initialRating];		
 		// If you set the view as opaque, drawRect will NOT
 		// redraw properly and you will get angry.
 		[self setOpaque:NO];
-    }
-    return self;	
+	}
+	return self;
 }
 
 - (void)drawRect:(CGRect)rect 
@@ -94,8 +94,7 @@ const float BTN_HEIGHT = 42.0;
 
 - (void)dealloc 
 {
-    [super dealloc];
+	[super dealloc];
 }
-
 
 @end

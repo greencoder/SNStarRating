@@ -1,315 +1,0 @@
-TSNStarRatingDemo
-v7
-r0
-t302747676.439033
-cCheck dependencies
-cProcessInfoPlistFile /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/Info.plist SNStarRatingDemo-Info.plist
-cCompileXIB /apps/SNStarRating/Sample/SNStarRatingDemo/MainWindow.xib
-cCompileXIB /apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemoViewController.xib
-cCpResource build/Debug-iphonesimulator/SNStarRatingDemo.app/dot.png dot.png
-cCpResource build/Debug-iphonesimulator/SNStarRatingDemo.app/star.png star.png
-cProcessPCH /var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch.gch SNStarRatingDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/main.o /apps/SNStarRating/Sample/SNStarRatingDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoAppDelegate.o /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoViewController.o /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRating.o /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo normal i386
-cGenerateDSYMFile /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app.dSYM /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo
-cTouch /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C20E3660000000000000132
-t1277223782
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.h
-c000000004C5B2D9E0000000000000191
-t1281043870
-s401
-i<UIKit/UIKit.h>
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m
-c000000004C5B2DDB0000000000000A6D
-t1281043931
-s2669
-i"SNStarRating.h"
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.h
-c000000004C5B2D4D00000000000001D6
-t1281043789
-s470
-i<UIKit/UIKit.h>
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m
-c000000004C5B2D550000000000000A79
-t1281043797
-s2681
-i"SNStarRatingDemoAppDelegate.h"
-i"SNStarRatingDemoViewController.h"
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.h
-c000000004C5B2DFC00000000000000CA
-t1281043964
-s202
-i<UIKit/UIKit.h>
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m
-c000000004C5B589B00000000000003A6
-t1281054875
-s934
-i"SNStarRatingDemoViewController.h"
-i"SNStarRating.h"
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/MainWindow.xib
-c000000004C5B2C4B0000000000004E95
-t1281043531
-s20117
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemoViewController.xib
-c000000004C5B2C4B0000000000001A69
-t1281043531
-s6761
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemo_Prefix.pch
-c000000004C5B2C4B00000000000000C9
-t1281043531
-s201
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app
-t1281054876
-s306
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app.dSYM
-t1281054876
-s102
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/Info.plist
-t1281054875
-s633
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/MainWindow.nib
-t1281054875
-s1141
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/PkgInfo
-t1281054875
-s8
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo
-t1281054876
-s24712
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemoViewController.nib
-t1281054875
-s795
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/dot.png
-t1281054875
-s1173
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/star.png
-t1281054875
-s1635
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRating.o
-t1281054876
-s42624
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemo.LinkFileList
-c000000004C5B589B0000000000000279
-t1281054875
-s633
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoAppDelegate.o
-t1281054876
-s48252
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoViewController.o
-t1281054876
-s37640
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/main.o
-t1281054876
-s6308
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/dot.png
-c000000004C59D86F0000000000000495
-t1280956527
-s1173
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/main.m
-c000000004C5B2E040000000000000133
-t1281043972
-s307
-i<UIKit/UIKit.h>
-
-N/apps/SNStarRating/Sample/SNStarRatingDemo/star.png
-c000000004C59D8650000000000000663
-t1280956517
-s1635
-
-N/var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch.gch
-t1281043820
-s15232016
-
-NSNStarRatingDemo-Info.plist
-c000000004C5B2C4B000000000000038D
-t1281043531
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302747675#302747675#0(0"0(0#1#0"8627059072#0"0#
-
-CCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRating.o /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302747676.154764
-e302747676.286339
-r1
-xCompileC
-xbuild/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRating.o
-x/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m302747676#302747676#0(0"0(0#0#65"/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m8696273216#2149"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-generated-files.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-own-target-headers.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-all-target-headers.hmap -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-project-headers.hmap -F/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/include -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources/i386 -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources -include /var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch -c /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRating.m -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRating.o0#
-
-CCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoAppDelegate.o /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302747675.971569
-e302747676.154652
-r1
-xCompileC
-xbuild/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoAppDelegate.o
-x/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m302747675#302747676#0(0"0(0#0#80"/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m8707361856#2179"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-generated-files.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-own-target-headers.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-all-target-headers.hmap -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-project-headers.hmap -F/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/include -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources/i386 -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources -include /var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch -c /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoAppDelegate.m -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoAppDelegate.o0#
-
-CCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoViewController.o /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302747676.035023
-e302747676.251585
-r1
-xCompileC
-xbuild/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoViewController.o
-x/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m302747676#302747676#0(0"0(0#0#83"/apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m8696055968#2185"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-generated-files.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-own-target-headers.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-all-target-headers.hmap -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-project-headers.hmap -F/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/include -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources/i386 -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources -include /var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch -c /apps/SNStarRating/Sample/SNStarRatingDemo/Classes/SNStarRatingDemoViewController.m -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemoViewController.o0#
-
-CCompileC build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/main.o /apps/SNStarRating/Sample/SNStarRatingDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302747675.970414
-e302747676.034902
-r1
-xCompileC
-xbuild/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/main.o
-x/apps/SNStarRating/Sample/SNStarRatingDemo/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /apps/SNStarRating/Sample/SNStarRatingDemo/main.m302747675#302747676#0(0"0(0#0#49"/apps/SNStarRating/Sample/SNStarRatingDemo/main.m8709656128#2125"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-generated-files.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-own-target-headers.hmap -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-all-target-headers.hmap -iquote /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/SNStarRatingDemo-project-headers.hmap -F/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/include -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources/i386 -I/apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/DerivedSources -include /var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch -c /apps/SNStarRating/Sample/SNStarRatingDemo/main.m -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /apps/SNStarRating/Sample/SNStarRatingDemo/MainWindow.xib
-s302747675.282536
-e302747675.966409
-r1
-xCompileXIB
-x/apps/SNStarRating/Sample/SNStarRatingDemo/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib302747675#302747675#0(0"0(0#0#57"/apps/SNStarRating/Sample/SNStarRatingDemo/MainWindow.xib8664736960#591"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/MainWindow.nib /apps/SNStarRating/Sample/SNStarRatingDemo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemoViewController.xib
-s302747675.283471
-e302747675.914126
-r1
-xCompileXIB
-x/apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemoViewController.xib
-lSLF07#2@45"CompileXIB SNStarRatingDemoViewController.xib302747675#302747675#0(0"0(0#0#77"/apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemoViewController.xib8662983104#631"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemoViewController.nib /apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemoViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource build/Debug-iphonesimulator/SNStarRatingDemo.app/dot.png dot.png
-s302747675.914230
-e302747675.970168
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/SNStarRatingDemo.app/dot.png
-xdot.png
-lSLF07#2@12"Copy dot.png302747675#302747675#0(0"0(0#0#50"/apps/SNStarRating/Sample/SNStarRatingDemo/dot.png8653648288#472"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /apps/SNStarRating/Sample/SNStarRatingDemo/dot.png /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app0#
-
-CCpResource build/Debug-iphonesimulator/SNStarRatingDemo.app/star.png star.png
-s302747675.917369
-e302747675.969474
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/SNStarRatingDemo.app/star.png
-xstar.png
-lSLF07#2@13"Copy star.png302747675#302747675#0(0"0(0#0#51"/apps/SNStarRating/Sample/SNStarRatingDemo/star.png8652953792#473"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /apps/SNStarRating/Sample/SNStarRatingDemo/star.png /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app0#
-
-CGenerateDSYMFile /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app.dSYM /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo
-s302747676.380858
-e302747676.431722
-r1
-xGenerateDSYMFile
-x/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app.dSYM
-x/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/SNStarRatingDemo.app.dSYM build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo302747676#302747676#0(0"0(0#0#108"/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo8653047296#422"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app.dSYM0#
-
-CLd /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo normal i386
-s302747676.286433
-e302747676.380750
-r1
-xLd
-x/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo
-xnormal
-xi386
-lSLF07#2@113"Link /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo302747676#302747676#0(0"0(0#0#0"8632466912#965"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator -F/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator -filelist /apps/SNStarRating/Sample/SNStarRatingDemo/build/SNStarRatingDemo.build/Debug-iphonesimulator/SNStarRatingDemo.build/Objects-normal/i386/SNStarRatingDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/SNStarRatingDemo0#
-
-CProcessInfoPlistFile /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/Info.plist SNStarRatingDemo-Info.plist
-s302747675.248442
-e302747675.282437
-r1
-xProcessInfoPlistFile
-x/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/Info.plist
-xSNStarRatingDemo-Info.plist
-lSLF07#2@35"Process SNStarRatingDemo-Info.plist302747675#302747675#0(0"0(0#0#70"/apps/SNStarRating/Sample/SNStarRatingDemo/SNStarRatingDemo-Info.plist8699463264#518"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SNStarRatingDemo-Info.plist -genpkginfo /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app/Info.plist0#
-
-CProcessPCH /var/folders/d8/d8qo6pvPGX0ex79JnQKssE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SNStarRatingDemo_Prefix-hcbxyckbfvrguwbktqnqyynvxwzv/SNStarRatingDemo_Prefix.pch.gch SNStarRatingDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CTouch /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app
-s302747676.431815
-e302747676.438973
-r1
-xTouch
-x/apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app
-lSLF07#2@97"Touch /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app302747676#302747676#0(0"0(0#0#0"8661600032#295"    cd /apps/SNStarRating/Sample/SNStarRatingDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /apps/SNStarRating/Sample/SNStarRatingDemo/build/Debug-iphonesimulator/SNStarRatingDemo.app0#
-

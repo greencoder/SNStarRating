@@ -37,8 +37,8 @@ const float BTN_HEIGHT = 42.0;
 		// If you set the view as opaque, drawRect will NOT
 		// redraw properly and you will get angry.
 		[self setOpaque:NO];
-    }
-    return self;	
+	}
+	return self;
 }
 
 - (void)drawRect:(CGRect)rect 
@@ -96,6 +96,5 @@ const float BTN_HEIGHT = 42.0;
 {
 	[super dealloc];
 }
-
 
 @end

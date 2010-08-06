@@ -11,7 +11,7 @@
 
 - (void)viewDidLoad 
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	[[self view] setBackgroundColor:[UIColor grayColor]];
 		
 	// Example one 
@@ -29,7 +29,7 @@
 
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+	[super didReceiveMemoryWarning];
 }
 
 - (void)viewDidUnload {
@@ -37,7 +37,7 @@
 
 
 - (void)dealloc {
-    [super dealloc];
+	[super dealloc];
 }
 
 @end
