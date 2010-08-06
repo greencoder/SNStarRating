@@ -48,11 +48,11 @@ const float BTN_HEIGHT = 42.0;
 	
 	// Loop through each star and see if we are suppoed to draw a 
 	// star or a dot.
-	for (int i=0; i<=[self numberStars]; i++)
+	for (int i=1; i<=[self numberStars]; i++)
 	{
 		UIImage *img = (i <= [self rating]) ? starImage : dotImage;
 		CGPoint imagePoint;
-		imagePoint.x = BTN_WIDTH * i;
+		imagePoint.x = BTN_WIDTH * (i-1);
 		imagePoint.y = 0.0f;
 		[img drawAtPoint:imagePoint];
 	}
